@@ -1,27 +1,8 @@
-import os
-import re
-PWD = os.getcwd()
-SEARCH = "this.*"
-DIRNAME = "E:\\test.txt"
-FILENAME = ['\\test\\test123', 'asdf']
+"""
+2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 
-def filefind():
-    for i in FILENAME:
-        FILE = DIRNAME + i
-        print FILE
+What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
+"""
 
-def allfind():
-    pass
-
-
-def searchfile():
-    with open(DIRNAME, 'r') as f:
-        aa = f.read()
-    str1 = re.findall(SEARCH, aa)
-    with open(str1, 'w') as w1:
-        w1.write(i + "\n")
-if __name__ == '__main__':
-    # filefind()
-    searchfile()
-    # pass
+i = 19 
